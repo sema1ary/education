@@ -1,4 +1,4 @@
-package pattern.factory;
+package pattern.factory.plane;
 
 public class SpeedPlane implements Plane{
     @Override

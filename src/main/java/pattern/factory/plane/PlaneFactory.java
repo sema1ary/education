@@ -1,4 +1,6 @@
-package pattern.factory;
+package pattern.factory.plane;
+
+import pattern.factory.Factory;
 
 import java.util.Objects;
 

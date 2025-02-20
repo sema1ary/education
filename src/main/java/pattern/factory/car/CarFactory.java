@@ -1,7 +1,9 @@
-package pattern.factory;
+package pattern.factory.car;
+
+import pattern.factory.Factory;
 
 public class CarFactory implements Factory {
-    public  Car create(CarType type) {
+    public Car create(CarType type) {
         switch (type) {
             case MERCEDES -> {
                 return new Mercedes();

@@ -1,2 +1,11 @@
-package pattern.singelton;public class Singleton {
+package pattern.singelton;
+
+public class Singleton {
+    static Singleton singleton = new Singleton();
+
+    private Singleton() {}
+
+    public static Singleton getInstance() {
+        return singleton;
+    }
 }

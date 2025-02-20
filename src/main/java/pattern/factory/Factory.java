@@ -1,2 +1,4 @@
-package pattern.factory;public interface Factory {
+package pattern.factory;
+
+public interface Factory {
 }

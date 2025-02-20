@@ -1,4 +1,4 @@
-package pattern.factory;
+package pattern.factory.plane;
 
 public interface Plane {
     void fly();

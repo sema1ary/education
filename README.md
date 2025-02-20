@@ -1,6 +1,6 @@
 # Изучение java
 
-### Изученные паттернов:
+### Изученные паттерны:
 1) Factory
 2) AbstractFactory
 3) FactoryMethod

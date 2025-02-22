@@ -1,3 +1,8 @@
+import pattern.adapter.CarWash;
+import pattern.adapter.MyCar;
+import pattern.adapter.MyTrack;
+import pattern.adapter.TrackWrap;
+import pattern.builder.TestBuilder;
 import pattern.factory.AbstractFactory;
 import pattern.factory.FactoryType;
 import pattern.factory.car.CarFactory;
@@ -24,5 +29,11 @@ public class Education {
         Singleton singleton = Singleton.getInstance();
 
         System.out.println(singleton);
+
+        System.out.println(TestBuilder.builder("test").build());
+
+        CarWash carWash = new CarWash();
+        carWash.wash(new MyCar());
+        carWash.wash(new TrackWrap(new MyTrack()));
      }
 }
